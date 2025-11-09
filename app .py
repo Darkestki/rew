@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-filename = 'decision_tree_model.pkl'
+filename = 'random_forest_model.pkl'
 loaded_model = joblib.load(open(filename, 'rb'))
 
 
