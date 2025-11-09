@@ -4,7 +4,7 @@ import joblib
 
 # Load the trained model
 filename = r'decision_tree_model.pkl'
-loaded_model = joblib.load(open(decision_tree_model.pkl,'rb'))
+loaded_model = joblib.load(open(filename.pkl,'rb'))
 
 # Define the correct column names
 columns = ['Delivery_Distance', 'Traffic_Congestion', 'Weather_Condition',
