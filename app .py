@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-import joblib   
+import joblib
 
-# Load the trained model
-filename = r'decision_tree_model.pkl'
-loaded_model = joblib.load(open(filename.pkl,'rb'))
+filename = 'decision_tree_model.pkl'
+loaded_model = joblib.load(open(filename, 'rb'))
+
 
 # Define the correct column names
 columns = ['Delivery_Distance', 'Traffic_Congestion', 'Weather_Condition',
